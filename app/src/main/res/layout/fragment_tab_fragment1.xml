@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_1"
+        android:textColor="#4CAF50"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="284dp"
+        android:layout_height="33dp"
+        android:layout_above="@+id/textView19"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-79dp"
+        android:text="Name:Nafisa.M.Mujawar" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="284dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text="Contact:9060003797" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="284dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:text="E-mail:nafisamujawar90@gmail.com" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="284dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:text="GitHub:www.github.com/nafisamujawar" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="284dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:text="Designation:Still Studying" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="284dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:text="Address:Qureshi Colony,Vijayapur" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:text="DOB:18/09/97"
+        tools:text="DOB:18/09/97" />
+
+</RelativeLayout>

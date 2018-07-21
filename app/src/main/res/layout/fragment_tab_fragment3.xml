@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_3"
+        android:textColor="#4CAF50"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="294dp"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="ProjectName:India's Top Most Companies" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="294dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:text="Description:Mini Project in HTML(WEB Designing)
+         Displaying India's Top Most Companies" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="294dp"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView12"
+        android:layout_marginTop="159dp"
+        android:text="ProjectName:Student FeedBack System" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="294dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="199dp"
+        android:layout_below="@+id/textView15"
+        android:text="Description:Getting Feedback of subject
+         from senoir students to junior students" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="294dp"
+        android:layout_height="32dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textView16"
+        android:text="ProjectName:Student Result Management System" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="294dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="214dp"
+        android:layout_below="@+id/textView17"
+        android:text="Description:Storing results of students
+         in database system" />
+
+</RelativeLayout>
